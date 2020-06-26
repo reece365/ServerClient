@@ -9,7 +9,7 @@ function createWindow () {
     height: 600,
     frame: false,
     fullscreen: true,
-    fullscreenable: false,
+    alwaysOnTop: true,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
